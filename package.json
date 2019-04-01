@@ -1,0 +1,25 @@
+{
+  "name": "min_server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/generator": "^7.4.0",
+    "@babel/traverse": "^7.4.0",
+    "@babel/types": "^7.4.0",
+    "art-template": "^4.13.2",
+    "babylon": "^6.18.0",
+    "compressing": "^1.4.0",
+    "express": "^4.16.4",
+    "express-art-template": "^1.0.1",
+    "htmlparser2": "^3.10.1",
+    "nodemailer": "^6.0.0",
+    "postcss": "^7.0.14"
+  }
+}

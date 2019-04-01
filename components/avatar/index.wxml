@@ -1,0 +1,6 @@
+<view class="min-class min-avatar min-avatar-{{ shape }} min-avatar-{{ size }} {{ src ? 'min-avatar-image' : '' }}">
+    <image class="min-avatar-img" src="{{ src }}" wx:if="{{ src !== '' }}"></image>
+    <view wx:else>
+      <slot></slot>
+    </view>
+</view>
